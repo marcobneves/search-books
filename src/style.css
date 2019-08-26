@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #644c6a;
+    --second-color: #6c5479;
+    --third-color: #29122f;
+    --write-primary: #ffffff;
+    --green-color:  #f0eff2;
+    --body-color: #a1a1a1;
+    --black: #000000
+  }
+
+.btn-custom {
+    color: var(--write-primary) !important;
+    background-image: linear-gradient(var(--second-color), var(--primary-color));
+    text-shadow: 0.8px 0px var(--black);
+    font-weight: 800 !important;
+}
+
+.background-title-custom {
+    background-image: linear-gradient(var(--second-color), var(--primary-color));
+    color: var(--write-primary);
+    text-shadow: 0.8px 0px  var(--black);
+    font-weight: 800 !important;
+}
+a {
+    color: var(--body-color);
+    font-weight: 800 !important;
+}
+
+a:link {
+    text-decoration:none !important; 
+  }
+    
+  a:hover {
+    color: var(--main-color);
+  }
+
+  .form-control {
+   font-weight: 800 !important;
+   background-color: var(--green-color)
+  }
+  

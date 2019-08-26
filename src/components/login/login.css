@@ -1,0 +1,19 @@
+.body-custom {
+    background-image: radial-gradient(var(--second-color) 5%, var(--third-color) 85%) !important;
+    height: -webkit-fill-available;
+    background-repeat: repeat;
+}
+
+.content-center-custom {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+}
+
+.close-custom {
+    color: var(-write-primary) !important;
+}
